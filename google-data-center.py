@@ -4,7 +4,7 @@ import tensorflow as tf
 
 class DatacenterEnv(object):
     
-    def __init__(self, optimal_temperature = (16, 24), initial_month = 0,initial_users= 20 , initial_rate_data= 30, ):
+    def __init__(self, optimal_temperature = (16, 24), initial_month = 0,initial_users= 20 , initial_rate_data= 30):
         
         self.monthly_atmospheric_temperature = [6, 12, 23, 4, 6, 9, 12, 25, 18, 11, 7]
         self.initial_month = initial_month
